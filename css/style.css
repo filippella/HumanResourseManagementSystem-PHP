@@ -1,0 +1,231 @@
+/* 
+    Document   : style
+    Created on : May 8, 2013, 1:09:23 AM
+    Author     : ASTU
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+*
+{
+    margin: 0px auto;
+    border: none;
+}
+
+body
+{
+    background-color: #999;
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    font-size-adjust: none;
+    font-stretch: normal;
+    color: #000000;
+}
+
+#container {
+    width: 1110px;
+    height: auto;
+    margin: 0 auto;
+    background-image: url('images/body_bg.png');
+}
+
+#header {
+    width: 1100px;
+    height: 120px;
+    margin: 0 auto;
+    background-image: url('images/hrms.png');
+}
+
+#links {
+    width: 1095px;
+    height: 35px;
+    padding-top: 10px;
+    padding-right: 5px;
+    margin: 0 auto;
+    border-top: 2px solid #2eb450;
+}
+
+#links2 {
+    width: 1090px;
+    height: 25px;
+    padding: 5px;
+    margin: 0 auto;
+    border-top: 1px dashed #2eb450;
+}
+
+#content {
+    width: 1080px;
+    padding: 10px;
+    text-align: justify;
+    border-top: 1px solid #2eb450;
+}
+
+#footer {
+    width: 1100px;
+    height: 80px;
+    margin: 0 auto;
+    background-image: url('images/footer.png');
+}
+
+#footer p {
+    color: white;
+}
+
+/* Menu Style Begin */
+
+
+.home_button {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/home.png');
+}
+.emp_detail_button {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/emp_detail.png');
+}
+.recruitment_button {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/recruitment.png');
+}
+.leave_button {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/leave.png');
+}
+.training_button {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/training.png');
+}
+.appraisal_button {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/appraisal.png');
+}
+.promotion_button {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/promotion.png');
+}
+.pension_button {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/pension.png');
+}
+.attendance_button {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/attendance.png');
+}
+.report_button {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/report.png');
+}
+
+.logout_button {
+    width: 50px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/logout.png');
+}
+
+/* HOVER Menu Style Begin */
+
+
+.home_button:hover {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/home_h.png');
+}
+.emp_detail_button:hover {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/emp_detail_h.png');
+}
+.recruitment_button:hover {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/recruitment_h.png');
+}
+.leave_button:hover {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/leave_h.png');
+}
+.training_button:hover {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/training_h.png');
+}
+.appraisal_button:hover {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/appraisal_h.png');
+}
+.promotion_button:hover {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/promotion_h.png');
+}
+.pension_button:hover {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/pension_h.png');
+}
+.attendance_button:hover {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/attendance_h.png');
+}
+
+.report_button:hover {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    background-image: url('images/report_h.png');
+}
+
+/* Login Style */
+
+.in {
+    width: 150px;
+    font:12px/12px Arial, Helvetica, sans-serif;
+    padding:3px;
+    background-image: url(images/input.png);
+    height: 20px;
+}
